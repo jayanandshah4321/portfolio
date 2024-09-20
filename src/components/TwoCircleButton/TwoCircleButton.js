@@ -14,7 +14,7 @@ const TwoCircleButton = (props) => {
   };
   return (
     <TwoCircleButtonStyle className={props.className} onClick={props.buttonClicked}>
-        <a onClick={copyToClipboard} href={props.link} class="hire_me_button">{props.text}</a>
+        <a onClick={props.type!=='project' ? copyToClipboard : null} href={props.link} class="hire_me_button">{props.text}</a>
         <div className="circle_button circle_1"></div>
         <div className="circle_button circle_2"></div>
     </TwoCircleButtonStyle>

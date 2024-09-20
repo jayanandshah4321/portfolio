@@ -54,7 +54,12 @@ const Projects = () => {
             link: "https://github.com/jayanandshah4321/EDTEC?tab=readme-ov-file"
         },
         
-        
+        {
+            _id: "3",
+            title: "Video Conferencing App",
+            desc: "A video conferencing app which includes websocket and peer to peer connection",
+            link: "https://github.com/jayanandshah4321/video-conferance",
+        }
     ]
 
 

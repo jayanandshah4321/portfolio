@@ -114,7 +114,7 @@ const Home = () => {
         </div>
       </HomeStyle>
       <ModifiedTwoCircleButton className="home_two_circle_button" link="mailto:jayanand95shah@gmail.com"
-        text="HIRE ME"
+        text="Connect"
       />
     </>
 
